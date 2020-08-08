@@ -1,0 +1,172 @@
+:root{
+  --color-primary:#FDC30A;
+  --black: #000103;
+  --white:#ffffff;
+  font-family: 'Bebas Neue', cursive;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Poppins', sans-serif;
+}
+html{
+  scroll-behavior: smooth;
+}
+body{
+  margin: 0px;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+/* div{
+  border: 1px red solid;;
+} */
+a{
+  text-decoration:none;
+  color: var(--white);
+}
+
+
+/* HEADER */
+header{
+  background: var(--black);
+  height: 50px;
+  width: 100%;  
+  position: fixed;
+  display: flex;
+  align-items: stretch;
+  z-index: 10;
+}
+.logo{
+  color: var(--white);
+  font-family: 'Bebas Neue', cursive;
+  font-size: 26px;
+  width: 50vw;
+  align-self: center;
+  padding-left: 10px;
+}
+.menu-itens{
+  width: 50vw;  
+  display: flex;
+  align-items: end;
+}
+.menu-itens ul{
+  padding:0px;
+  margin:0px;
+  width: 100%;
+  list-style:none;
+  text-align: end;
+  align-self: center;    
+}
+.menu-itens ul li{
+  color: var(--white);  
+  display: inline;    
+  margin: 10px;  
+}
+
+/* SECTION INICIAL */
+.section-inicial{
+  height: 100vh;
+  background: var(--black);  
+  display: flex;
+  padding-top: 50px;
+}
+.txt-init{
+  color: var(--white);
+  width: 50%;
+  align-self: center;  
+  padding: 4vw;
+}
+.txt-init h2{
+  margin: 0px;
+  font-size: 5vw;
+}
+.txt-init p{
+  margin: 0px;
+  font-size: 2vw;
+}
+.button-init{
+  background-color: #ffffff00;
+  color: var(--white);
+  border: 1px var(--white) solid;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+  padding: 10px;
+  outline: none;  
+}
+.button-init:hover{
+  background-color: var(--white);
+  color: var(--black);
+}
+.img-init{
+  color: var(--white);
+  display: flex;
+  justify-content: center;
+  width: 50%;  
+}
+.img-lamp{
+  width: 100%;    
+  align-self: center;  
+}
+
+/* SECTION POLUICAO */
+.section-poluicao{
+  height: 100vh;
+  background: var(--white);
+}
+.titulo-poluicao{
+  width: 100%;
+  margin-top: 60px;
+  text-align: center;
+}
+div{
+  border: 1px red solid;
+}
+
+.box-poluicao{
+  display: flex;
+}
+.box-img-poluicao{
+  width: 50%;
+}
+.box-txt-poluicao{
+  width: 50%;  
+}
+
+.section-solucao{
+  height: 100vh;
+  background: var(--black);
+}
+.section-ods{
+  background-size: cover;  
+  background: url('pexels-pixabay-159160.jpg');
+  height: 100vh;
+}
+
+@media only screen and (min-width: 700px) {
+  .img-lamp{    
+    width: 65vh;    
+  }
+  .txt-init p{
+    margin-top: -16px;
+    margin-bottom: -16px;  
+    font-size: 1.5vw;
+  }
+
+  /* width */
+::-webkit-scrollbar {
+  width: 4px;  
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--black);
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #121212;   
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #b30000; 
+}
+}
