@@ -2,9 +2,9 @@
   --color-primary:#FDC30A;
   --black: #000103;
   --white:#ffffff;
-  font-family: 'Bebas Neue', cursive;
+  /* font-family: 'Bebas Neue', cursive; */
   font-family: 'Montserrat', sans-serif;
-  font-family: 'Poppins', sans-serif;
+  /* font-family: 'Poppins', sans-serif; */
 }
 html{
   scroll-behavior: smooth;
@@ -116,18 +116,31 @@ header{
   margin-top: 60px;
   text-align: center;
 }
-div{
+/* div{
   border: 1px red solid;
-}
-
+} */
 .box-poluicao{
   display: flex;
+  height: 100%;
 }
 .box-img-poluicao{
   width: 50%;
+  align-self: center;
+  
+  display: flex;
+  justify-content: center;
+}
+.img1-poluicao{  
+  width: 80%;
 }
 .box-txt-poluicao{
   width: 50%;  
+  align-self: center;  
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.box-txt-poluicao p{
+  text-align: center;
 }
 
 .section-solucao{
