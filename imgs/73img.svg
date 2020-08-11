@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="318" height="318" viewBox="0 0 318 318">
+  <defs>
+    <filter id="Elipse_1" x="14" y="14" width="290" height="290" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Elipse_2" x="0" y="0" width="318" height="318" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_32" data-name="Grupo 32" transform="translate(-875 -2480)">
+    <g id="Grupo_27" data-name="Grupo 27" transform="translate(213 -90)">
+      <g transform="matrix(1, 0, 0, 1, 662, 2570)" filter="url(#Elipse_1)">
+        <circle id="Elipse_1-2" data-name="Elipse 1" cx="136" cy="136" r="136" transform="translate(23 23)" fill="#fdc30a"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 662, 2570)" filter="url(#Elipse_2)">
+        <g id="Elipse_2-2" data-name="Elipse 2" transform="translate(9 9)" fill="none" stroke="#fdc30a" stroke-width="1">
+          <circle cx="150" cy="150" r="150" stroke="none"/>
+          <circle cx="150" cy="150" r="149.5" fill="none"/>
+        </g>
+      </g>
+    </g>
+    <text id="_7.3_Até_2030_dobrar_a_taxa_global_de_melhoria_da_eficiência_energética" data-name="7.3
+Até 2030, dobrar a taxa 
+global de melhoria da 
+eficiência energética" transform="translate(1034 2612)" fill="#fff" font-size="31" font-family="Poppins-Regular, Poppins"><tspan x="-19.623" y="0">7.3</tspan><tspan font-size="15"><tspan x="-88.395" y="30">Até 2030, dobrar a taxa </tspan><tspan x="-84.33" y="53">global de melhoria da </tspan><tspan x="-79.387" y="76">eficiência energética</tspan></tspan></text>
+  </g>
+</svg>

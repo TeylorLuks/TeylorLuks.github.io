@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="487" height="487" viewBox="0 0 487 487">
+  <defs>
+    <filter id="Elipse_1" x="22" y="22" width="443" height="443" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Elipse_2" x="0" y="0" width="487" height="487" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_33" data-name="Grupo 33" transform="translate(-142 -2791)">
+    <g id="Grupo_24" data-name="Grupo 24" transform="translate(-520 221.122)">
+      <g transform="matrix(1, 0, 0, 1, 662, 2569.88)" filter="url(#Elipse_1)">
+        <circle id="Elipse_1-2" data-name="Elipse 1" cx="212.5" cy="212.5" r="212.5" transform="translate(31 31)" fill="#fdc30a"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 662, 2569.88)" filter="url(#Elipse_2)">
+        <g id="Elipse_2-2" data-name="Elipse 2" transform="translate(9 9)" fill="none" stroke="#fdc30a" stroke-width="1">
+          <circle cx="234.5" cy="234.5" r="234.5" stroke="none"/>
+          <circle cx="234.5" cy="234.5" r="234" fill="none"/>
+        </g>
+      </g>
+    </g>
+    <text id="_7.a_Até_2030_reforçar_a_cooperação_internacional_para_facilitar_o_acesso_a_pesquisa_e_tecnologias_de_energia_limpa_incluindo_energias_renováveis_eficiência_energética_e_tecnologias_de_combustíveis_fósseis_avançadas_e_mais_limpas_e_promover_o_inve" data-name="7.a 
+Até 2030, reforçar a cooperação internacional 
+para facilitar o acesso a pesquisa e
+ tecnologias de energia limpa, incluindo energias 
+renováveis, eficiência energética e tecnologias 
+de combustíveis fósseis avançadas e 
+mais limpas, e promover o inve" transform="translate(386 2947)" fill="#fff" font-size="31" font-family="Poppins-Regular, Poppins"><tspan x="-24.769" y="0">7.a </tspan><tspan font-size="15"><tspan x="-174.48" y="30">Até 2030, reforçar a cooperação internacional </tspan><tspan x="-133.163" y="53">para facilitar o acesso a pesquisa e</tspan><tspan x="-185.587" y="76" xml:space="preserve"> tecnologias de energia limpa, incluindo energias </tspan><tspan x="-178.08" y="99">renováveis, eficiência energética e tecnologias </tspan><tspan x="-142.267" y="122">de combustíveis fósseis avançadas e </tspan><tspan x="-151.597" y="145">mais limpas, e promover o investimento </tspan><tspan x="-110.07" y="168">em infraestrutura de energia </tspan><tspan x="-130.552" y="191">e em tecnologias de energia limpa</tspan></tspan></text>
+  </g>
+</svg>

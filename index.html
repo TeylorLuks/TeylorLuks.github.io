@@ -3,15 +3,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;500;600&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
   <link rel="stylesheet" href="style.css">
   <title>Energia</title>
 </head>
   <body>
-    <header>
-      <div class="logo">        
+    <header class="parent">
+      <div class="logo child">        
         <a href="#inicio">ENERGIA LIMPA E ACESSÍVEL</a> 
       </div>
-      <div class="menu-itens">
+      <div class="menu-itens child">
         <ul>
           <li> <a href="#inicio">Início</a></li>
           <li><a href="#poluicao">Poluição</a></li>
@@ -21,8 +22,8 @@
       </div>
     </header>    
     <div id="inicio"></div>
-    <section class="section-inicial display-flex">
-      <div class="txt-init metade">
+    <section class="section-inicial parent">
+      <div class="txt-init child">
         <p>APENAS</p>
         <h2>8%</h2>
         <p>DE TODA ENERGIA NO</p>
@@ -31,17 +32,17 @@
         <h2>RENOVÁVEL</h2>
         <button onclick="location.href='#poluicao'"  class="button-init">SAIBA MAIS</button>      
       </div>
-      <div class="img-init metade">
+      <div class="img-init child">
         <img class="img-lamp" src="imgs/pexels-led-supermarket-577514.jpg" alt="">
       </div>
     </section>
     <div id="poluicao"></div>
     <section class="section-poluicao">
-      <div class="box-poluicao display-flex">
-        <div class="box-img-poluicao metade">                   
+      <div class="box-poluicao parent">
+        <div class="box-img-poluicao child">                   
           <img class="img1-poluicao" src="imgs/img-poluicao.svg" alt="">
         </div>
-        <div class="box-txt-poluicao metade">
+        <div class="box-txt-poluicao child">
           <h2 class="titulo-poluicao">Poluição</h2>
           <p>O mundo hoje sofre com grandes problemas de poluição, esses são causados por diversos motivos.
             <br>
@@ -55,21 +56,83 @@
       </div>
     </section>
     <div id="solucao"></div>
-    <section class="section-solucao">
-      <h2 class="titulo-solucao">Solução</h2>
-      <img class="bottom-detail-solution" src="imgs/bottom-detail-solution.svg" alt="bottom-detail">
-      <div class="box-solucao display-flex">
-        <div class="box-solucao-text metade">
-          <p class="text-solucao metade" >aaa</p>
+    <section class="section-solucao">            
+      <div class="box-solucao parent">        
+        <div class="box-solucao-text child">
+          <h2 class="titulo-solucao">Solução</h2>
+          <p class="text-solucao" >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel molestias error earum a delectus sapiente vero quos neque. Aperiam error reiciendis repellat optio modi similique distinctio amet corporis earum ex molestiae, sequi impedit praesentium animi laudantium incidunt explicabo sed illo debitis ratione aspernatur. Magni eum cumque voluptatem aliquam dolorem maxime perferendis quibusdam provident laboriosam?</p>
         </div>
-        <div class="box-solucao-video metade">
-          <iframe class="video-solucao"  src="https://www.youtube.com/embed/trhCGRgfuZ0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="box-solucao-video child">
+          <iframe class="video-solucao" src="https://www.youtube.com/embed/trhCGRgfuZ0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
-      </div>      
-    </section>
-    <div id="ods"></div>
-    <section class="section-ods">
-
+      </div>       
+      <div class="box-bottom-detail-solucao" >                 
+        <img class="bottom-detail-solution" src="imgs/bottom-detail-solution.svg" alt="bottom-detail">                        
+      </div>              
     </section>    
+    <div id="ods"></div> 
+    <section class="section-ods">
+      <div class="top-detail-ods">   
+        <div class="top-detail-text">
+           <h3><a href="https://nacoesunidas.org/pos2015/ods7/" target="_blank">ODS7</a></h3>
+          <p>Assegurar o acesso confiável, sustentável, moderno 
+            e a preço acessível à energia para todas e todos</p>
+        </div>     
+        <img src="/imgs/top-detail.svg" alt="">
+      </div>
+      <div class="parent ">
+        <div class="child box-imgs-ods">
+          <img src="/imgs/71img.svg" alt="71">
+        </div >
+        <div class="child box-imgs-ods">
+          <img src="/imgs/72img.svg" alt="72">
+        </div>
+        <div class="child box-imgs-ods">
+          <img src="/imgs/73img.svg" alt="73">
+        </div>
+      </div>
+      <div class="parent">
+        <div class="child box-imgs-ods">
+          <img src="/imgs/7Aimg.svg" alt="7A">
+        </div>
+        <div class="child box-imgs-ods">
+          <img src="/imgs/7Bimg.svg" alt="7B">
+        </div>
+      </div>
+    </section>    
+    <footer>
+      <div class="parent">
+        <div class="child">
+          <h3>Desenvolvido por:</h3>
+          <div class="box-profile">
+            <img class="img-profile" src="imgs/img-profile.jpg" alt="">
+            <h3>Teylor Lucas</h3>
+            <p>Tenho 17 anos, trabalho hoje como desenvolvedor mobile android usando JAVA, SQLServer e outros, sou um amante do front-end e de design em geral, utilizo várias ferramentas pra isso ao lado seguem minhas redes sociais</p>
+          </div>          
+        </div>
+        <div class="child center-vertical">
+          <h3>Tema:</h3>
+          <img class="img-bottom-tema" src="imgs/ods7.png" alt="">
+          <h3>Redes Sociais:</h3>          
+          <div class="buttons-footer">
+            <a class="botao-footer" target="_blank" href="https://www.facebook.com/teylor.lucas/">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a class="botao-footer" target="_blank" href="https://twitter.com/LuksTeylor">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a class="botao-footer" target="_blank" href="https://www.linkedin.com/in/TeylorLuks/">
+              <i class="fab fa-LinkedIn-in"></i>
+            </a>
+            <a class="botao-footer" target="_blank" href="https://www.instagram.com/teylor.l/">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a class="botao-footer" target="_blank" href="https://github.com/TeylorLuks">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>          
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

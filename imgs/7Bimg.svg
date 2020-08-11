@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="487" height="487" viewBox="0 0 487 487">
+  <defs>
+    <filter id="Elipse_1" x="22" y="22" width="443" height="443" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Elipse_2" x="0" y="0" width="487" height="487" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_34" data-name="Grupo 34" transform="translate(-652 -2791)">
+    <g id="Grupo_25" data-name="Grupo 25" transform="translate(-10 221.122)">
+      <g transform="matrix(1, 0, 0, 1, 662, 2569.88)" filter="url(#Elipse_1)">
+        <circle id="Elipse_1-2" data-name="Elipse 1" cx="212.5" cy="212.5" r="212.5" transform="translate(31 31)" fill="#fdc30a"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 662, 2569.88)" filter="url(#Elipse_2)">
+        <g id="Elipse_2-2" data-name="Elipse 2" transform="translate(9 9)" fill="none" stroke="#fdc30a" stroke-width="1">
+          <circle cx="234.5" cy="234.5" r="234.5" stroke="none"/>
+          <circle cx="234.5" cy="234.5" r="234" fill="none"/>
+        </g>
+      </g>
+    </g>
+    <text id="_7.b_Até_2030_expandir_a_infraestrutura_e_modernizar_a_tecnologia_para_o_fornecimento_de_serviços_de_energia_modernos_e_sustentáveis_para_todos_nos_países_em_desenvolvimento_particularmente_nos_países_menos_desenvolvidos_nos_pequenos_Estados_insula" data-name="7.b
+Até 2030, expandir a infraestrutura 
+e modernizar a tecnologia para 
+o fornecimento de serviços de energia modernos 
+e sustentáveis para todos nos países 
+em desenvolvimento, particularmente nos países 
+menos desenvolvidos, nos pequenos Estados 
+insula" transform="translate(896 2924)" fill="#fff" font-size="31" font-family="Poppins-Regular, Poppins"><tspan x="-20.94" y="0">7.b</tspan><tspan font-size="15"><tspan x="-130.642" y="30">Até 2030, expandir a infraestrutura </tspan><tspan x="-120.345" y="53">e modernizar a tecnologia para </tspan><tspan x="-186.78" y="76">o fornecimento de serviços de energia modernos </tspan><tspan x="-140.467" y="99">e sustentáveis para todos nos países </tspan><tspan x="-187.222" y="122">em desenvolvimento, particularmente nos países </tspan><tspan x="-170.842" y="145">menos desenvolvidos, nos pequenos Estados </tspan><tspan x="-178.807" y="168">insulares em desenvolvimento e nos países em </tspan><tspan x="-107.062" y="191">desenvolvimento sem litoral,</tspan><tspan x="-124.058" y="214">de acordo com seus respectivos </tspan><tspan x="-77.37" y="237">programas de apoio</tspan></tspan></text>
+  </g>
+</svg>

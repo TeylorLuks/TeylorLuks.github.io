@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="318" height="318" viewBox="0 0 318 318">
+  <defs>
+    <filter id="Elipse_1" x="14" y="14" width="290" height="290" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Elipse_2" x="0" y="0" width="318" height="318" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_30" data-name="Grupo 30" transform="translate(-96 -2479)">
+    <g id="Grupo_23" data-name="Grupo 23" transform="translate(-566 -91)">
+      <g transform="matrix(1, 0, 0, 1, 662, 2570)" filter="url(#Elipse_1)">
+        <circle id="Elipse_1-2" data-name="Elipse 1" cx="136" cy="136" r="136" transform="translate(23 23)" fill="#fdc30a"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 662, 2570)" filter="url(#Elipse_2)">
+        <g id="Elipse_2-2" data-name="Elipse 2" transform="translate(9 9)" fill="none" stroke="#fdc30a" stroke-width="1">
+          <circle cx="150" cy="150" r="150" stroke="none"/>
+          <circle cx="150" cy="150" r="149.5" fill="none"/>
+        </g>
+      </g>
+    </g>
+    <text id="_7.1_Até_2030_assegurar_o_acesso_universal_confiável_moderno_e_a_preços_acessíveis_a_serviços_de_energia" data-name="7.1 
+Até 2030, assegurar o acesso 
+universal, confiável, moderno e 
+a preços acessíveis 
+a serviços de energia" transform="translate(255 2603)" fill="#fff" font-size="31" font-family="Poppins-Regular, Poppins"><tspan x="-16.794" y="0">7.1</tspan><tspan y="0" font-size="15"> </tspan><tspan font-size="15"><tspan x="-110.805" y="30">Até 2030, assegurar o acesso </tspan><tspan x="-117.847" y="53">universal, confiável, moderno e </tspan><tspan x="-75.255" y="76">a preços acessíveis </tspan><tspan x="-80.145" y="99">a serviços de energia</tspan></tspan></text>
+  </g>
+</svg>
