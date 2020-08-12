@@ -128,7 +128,7 @@ header{
   text-align: center;
 }
 .box-poluicao{
-  height: 100%;
+  min-height: 100vh;
 }
 .box-img-poluicao{
   align-self: center;
@@ -139,8 +139,7 @@ header{
   width: 100%;
 }
 .box-txt-poluicao{
-  align-self: center;
- 
+  align-self: center; 
 }
 .box-txt-poluicao p{
   text-align: center;
@@ -152,7 +151,7 @@ header{
 
 /* SECTION SOLUCAO */
 .section-solucao{
-  min-height: 100vh;
+  min-height: 130vh;
   background: var(--black); 
   position: relative; 
 }
@@ -177,6 +176,7 @@ header{
 }
 .box-solucao-text p{
   font-size: 20px;
+  text-align: center;
 }
 .box-solucao-video{      
   align-self: center;
@@ -205,7 +205,10 @@ header{
   margin-top: 20px;
   margin-bottom: 20px;
   position: relative;
-  transition: 0.1s linear;
+  transition: 0.1s linear;  
+}
+.img-bottom{
+  width: 100%;
 }
 .box-imgs-ods:hover{
   transform: scale(1.11);
@@ -348,6 +351,9 @@ footer{
   }
   .img-profile{
     width: 12vw;
+  }
+  .img-bottom{
+    width: 80%;
   }
 }
 
